@@ -8,7 +8,7 @@ const links = [
   { href: "./pages/Persona3", label: "Persona 3" },
   { href: "./pages/Scenario1", label: "Scenario 1" },
   { href: "./pages/Scenario2", label: "Scenario 2" },
-  { href: "./pages/Flow Chart", label: "Flow Chart" },
+  { href: "./pages/FlowChart", label: "Flow Chart" },
   { href: "./pages/WireFrame", label: "WireFrame" },
   { href: "./pages/GUIS", label: "GUI" },
   { href: "./pages/Bibliography", label: "Bibliography" },

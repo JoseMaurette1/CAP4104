@@ -2,16 +2,15 @@ import React from "react";
 import Link from "next/link";
 
 const links = [
-  { href: "./pages/Introduction", label: "Introduction" },
-  { href: "./pages/Persona1", label: "Persona 1" },
-  { href: "./pages/Persona2", label: "Persona 2" },
-  { href: "./pages/Persona3", label: "Persona 3" },
-  { href: "./pages/Scenario1", label: "Scenario 1" },
-  { href: "./pages/Scenario2", label: "Scenario 2" },
-  { href: "./pages/FlowChart", label: "Flow Chart" },
-  { href: "./pages/WireFrame", label: "WireFrame" },
-  { href: "./pages/GUIS", label: "GUI" },
-  { href: "./pages/Bibliography", label: "Bibliography" },
+  { href: "/Introduction", label: "Introduction" },
+  { href: "/Persona1", label: "Persona 1" },
+  { href: "/Persona2", label: "Persona 2" },
+  { href: "/Scenario1", label: "Scenario 1" },
+  { href: "/Scenario2", label: "Scenario 2" },
+  { href: "/FlowChart", label: "Flow Chart" },
+  { href: "/WireFrame", label: "WireFrame" },
+  { href: "/GUIS", label: "GUI" },
+  { href: "/Bibliography", label: "Bibliography" },
 ];
 export default function Navbar() {
   return (

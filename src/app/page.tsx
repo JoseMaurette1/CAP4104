@@ -1,7 +1,11 @@
+import Navbar from "./_components/Navbar";
+import Logo from "./_components/Logo";
+import Bibliography from "./pages/Bibliography/page";
 export default function Home() {
   return (
-    <div>
-      <h1>Hello world</h1>
-    </div>
+    <>
+      <Navbar />
+      <Logo />
+    </>
   );
 }

@@ -6,6 +6,8 @@ export default function Home() {
     <>
       <Navbar />
       <Logo />
+      {/* Work on pages */}
+      {/* Add Project1A to Website */}
     </>
   );
 }

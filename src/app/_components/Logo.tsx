@@ -1,5 +1,5 @@
 import React from "react";
-import TT from "@/app/assets/TT.png";
+
 import Link from "next/link";
 
 const Logo = () => {

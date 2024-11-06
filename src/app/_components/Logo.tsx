@@ -1,6 +1,5 @@
 import React from "react";
-import Image from "next/image";
-import TT from "@/app/assets/TT.png";
+
 import Link from "next/link";
 
 const Logo = () => {
@@ -15,13 +14,7 @@ const Logo = () => {
         {/* Left Corner Logo */}
       </div>
       <div className="absolute top-5 right-5">
-        {/* <Image
-          className="mb-4 rounded"
-          src={TT}
-          alt="Logo"
-          width={50}
-          height={50}
-        ></Image> */}
+        {/* Add Changes for Right Corner Logo */}
       </div>
     </>
   );

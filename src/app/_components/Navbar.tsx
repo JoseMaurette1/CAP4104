@@ -9,8 +9,8 @@ const links = [
   { href: "/Scenario2", label: "Scenario 2" },
   { href: "/FlowChart", label: "Flow Chart" },
   { href: "/WireFrame", label: "WireFrame" },
-  { href: "/GUIS", label: "GUI" },
-  { href: "/Bibliography", label: "Bibliography" },
+  { href: "/StoryBoard", label: "StoryBoard" },
+  { href: "/MoodBoard", label: "MoodBoard" },
 ];
 export default function Navbar() {
   return (

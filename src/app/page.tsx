@@ -1,8 +1,8 @@
 export default function Home() {
   return (
     <>
-      {/* Work on pages */}
-      {/* Add Project1A to Website */}
+      <h1>To be Continued...</h1>
+      {/* Add Simple Sign Up Form */}
     </>
   );
 }

@@ -26,7 +26,7 @@ const page = () => {
       ></Image>
       <div className="border border-2 p-4 hover:border-dashed  transform transition-transform duration-300 hover:translate-y-[-4px]">
         <h1 className="text-center">
-          Persona 1: <StyledText>{Beth.name}</StyledText>
+          Persona 2: <StyledText>{Beth.name}</StyledText>
         </h1>
         <div className="mt-4 text-center">
           <h2 className="text-xl">Age: {Beth.age}</h2>

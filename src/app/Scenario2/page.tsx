@@ -19,7 +19,7 @@ const page = () => {
       ></Image>
       <div className="border border-2 p-4 hover:border-dashed  transform transition-transform duration-300 hover:translate-y-[-4px]">
         <h1 className="text-center">
-          Scenario 1: <StyledText>{Beth.name}</StyledText>
+          Scenario 2: <StyledText>{Beth.name}</StyledText>
         </h1>
         <div className="mt-4 text-center">
           <div className="w-full max-w-4xl px-6">

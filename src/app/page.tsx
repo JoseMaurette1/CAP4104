@@ -1,4 +1,4 @@
-import StyledText from "./_components/StyledText";
+
 import Welcome from "./_components/Welcome";
 export default function Home() {
   return (

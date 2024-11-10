@@ -16,17 +16,17 @@ import TipsAndUpdatesIcon from "@mui/icons-material/TipsAndUpdates";
 
 const page = () => {
   const icons = [
-    <SettingsIcon />,
-    <GridOnIcon />,
-    <TipsAndUpdatesIcon />,
-    <TerrainIcon />,
-    <HikingIcon />,
-    <CommentIcon />,
-    <BookmarkIcon />,
-    <CameraAltIcon />,
-    <AccountBoxIcon />,
-    <ArrowBackIcon />,
-    <ExploreIcon />,
+    { id: "settings", icon: <SettingsIcon /> },
+    { id: "grid", icon: <GridOnIcon /> },
+    { id: "tips", icon: <TipsAndUpdatesIcon /> },
+    { id: "terrain", icon: <TerrainIcon /> },
+    { id: "hiking", icon: <HikingIcon /> },
+    { id: "comment", icon: <CommentIcon /> },
+    { id: "bookmark", icon: <BookmarkIcon /> },
+    { id: "camera", icon: <CameraAltIcon /> },
+    { id: "account", icon: <AccountBoxIcon /> },
+    { id: "back", icon: <ArrowBackIcon /> },
+    { id: "explore", icon: <ExploreIcon /> },
   ];
   const colors = [
     "#582F03",
@@ -45,10 +45,10 @@ const page = () => {
       <h1 className="font-bold p-10">
         Icons that will be used throughout the website:{" "}
       </h1>
-      <div className="flex flex-row">
-        {icons.map((icon, index) => (
+      <div className="flex flex-row gap-4">
+        {icons.map(({ id, icon }) => (
           <ul>
-            <li key={index}>{icon}</li>
+            <li key={id}>{icon}</li>
           </ul>
         ))}
       </div>
@@ -56,7 +56,7 @@ const page = () => {
         Theme: Explore and Share your adventure
       </h1>
       <h1 className="font-bold pb-5">Sample Color Palette: </h1>
-      <div className="flex flex-row space-x-4 pb-10 ">
+      <div className="flex flex-row gap-4 pb-10 ">
         {colors.map((colors, index) => (
           <Box
             className=" transform transition-transform duration-300 hover:translate-y-[-4px]"

@@ -47,9 +47,7 @@ const page = () => {
       </h1>
       <div className="flex flex-row gap-4">
         {icons.map(({ id, icon }) => (
-          <ul>
-            <li key={id}>{icon}</li>
-          </ul>
+          <div key={id}>{icon}</div>
         ))}
       </div>
       <h1 className="font-bold p-10 text-center">

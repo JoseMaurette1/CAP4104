@@ -41,13 +41,24 @@ const page = () => {
   return (
     <div className="min-h-screen flex items-center flex-col justify-center">
       <h1 className="font-bold p-10">Example Wire Frame:</h1>
-      <Image src={wireframe} alt="pic" height={1000} width={1000} />
+      <Image
+        src={wireframe}
+        alt="pic"
+        height={1000}
+        width={1000}
+        className=" transform transition-transform duration-300 hover:translate-y-[-4px]"
+      />
       <h1 className="font-bold p-10">
         Icons that will be used throughout the website:{" "}
       </h1>
       <div className="flex flex-row gap-4">
         {icons.map(({ id, icon }) => (
-          <div key={id}>{icon}</div>
+          <div
+            className="transform transition-transform duration-300 hover:translate-y-[-4px]"
+            key={id}
+          >
+            {icon}
+          </div>
         ))}
       </div>
       <h1 className="font-bold p-10 text-center">

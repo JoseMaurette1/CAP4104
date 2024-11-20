@@ -24,6 +24,7 @@ const Welcome = () => {
             size="large"
             className="bg-gray-800 hover:bg-gray-900"
             href="/Login"
+            // Set to new Website URL
             endIcon={<KeyboardDoubleArrowRightIcon />}
           >
             Continue

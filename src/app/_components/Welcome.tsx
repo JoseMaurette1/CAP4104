@@ -23,7 +23,7 @@ const Welcome = () => {
             variant="contained"
             size="large"
             className="bg-gray-800 hover:bg-gray-900"
-            href="/Login"
+            href="https://trailtales.vercel.app/"
             // Set to new Website URL
             endIcon={<KeyboardDoubleArrowRightIcon />}
           >

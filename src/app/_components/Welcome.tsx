@@ -23,7 +23,7 @@ const Welcome = () => {
             variant="contained"
             size="large"
             className="bg-gray-800 hover:bg-gray-900"
-            href="/Introduction"
+            href="/Login"
             endIcon={<KeyboardDoubleArrowRightIcon />}
           >
             Continue

@@ -1,34 +1,12 @@
 import React from "react";
-import Button from "@mui/material/Button";
-import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
-import GradientText from "./GradientText";
-import StyledText from "./StyledText";
+import Image from "next/image";
+
 const Welcome = () => {
   return (
     <>
-      <div className="flex items-center justify-center flex-col">
-        <h1 className="font-bold text-3xl p-2">
-          Welcome to <GradientText>TrailTales</GradientText>
-        </h1>
-        <h2 className="font-bold text-xl  p-2">
-          Share and Document your Camping and Hiking experiences with
-          TrailTales.
-        </h2>
-        <p className="font-bold text-gray-400 p-2">
-          Upload images, detailed descriptions and comments without the need of{" "}
-          <StyledText>Social Media.</StyledText>
-        </p>
-        <div className="pt-8">
-          <Button
-            variant="contained"
-            size="large"
-            className="bg-gray-800 hover:bg-gray-900"
-            href="https://trailtales.vercel.app/"
-            // Set to new Website URL
-            endIcon={<KeyboardDoubleArrowRightIcon />}
-          >
-            Continue
-          </Button>
+      <div className="flex flex-col items-center justify-center min-h-screen">
+        <div className="flex flex-row space-x-4 justify-center">
+          <Image src={"/Prototype.png"} alt="pic" width={800} height={300} />
         </div>
       </div>
     </>
